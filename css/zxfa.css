@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  background: #EAEAEA !important; }
+
+#top {
+  background: white;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  height: 3rem;
+  color: #999; }
+  #top img {
+    width: 30%; }
+  #top h3 {
+    color: black;
+    font-size: 1.2rem; }
+  #top p {
+    font-size: 0.6rem;
+    margin-top: 0.2rem;
+    text-align: center; }
+  #top .iconfont {
+    font-size: 1rem; }
+  #top > div {
+    margin-top: 0.6rem;
+    display: flex;
+    justify-content: space-around; }
+    #top > div > div {
+      margin-left: 1rem; }
+
+#taocan .taocan {
+  width: 95%;
+  margin: 0.5rem auto;
+  background: white;
+  padding-bottom: 0.8rem; }
+  #taocan .taocan img {
+    width: 100%; }
+  #taocan .taocan .tc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0.3rem; }
+    #taocan .taocan .tc p {
+      margin-top: 0.5rem; }
+    #taocan .taocan .tc p:nth-of-type(1) {
+      font-size: 1rem; }
+    #taocan .taocan .tc p:nth-of-type(2) {
+      color: gray;
+      font-size: 0.7rem; }
+      #taocan .taocan .tc p:nth-of-type(2) span {
+        color: #FF4450; }
+  #taocan .taocan .yuyue {
+    font-size: 0.7rem;
+    background: #FF4450;
+    height: 2rem;
+    width: 5rem;
+    text-align: center;
+    line-height: 2rem;
+    color: white;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem; }
+
+#jieshao {
+  font-size: 0.9rem;
+  background: white;
+  margin-top: 1rem;
+  padding: 0.4rem; }
+
+#kf {
+  text-align: center;
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  background: white;
+  padding-bottom: 0.5rem; }
+  #kf p {
+    color: #00B2B2;
+    font-size: 0.8rem; }
+  #kf span {
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+    color: black; }
+  #kf > div {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.7rem;
+    margin-top: 1rem; }
+
+#bottom {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-between !important;
+  align-items: flex-start;
+  height: 4rem; }
+  #bottom #x {
+    width: 1.5rem;
+    height: 1.5rem; }
+  #bottom #free {
+    width: 12rem;
+    margin-top: 1rem; }
+  #bottom > button {
+    background: #feb605;
+    margin-top: 1.4rem;
+    border-radius: 15rem;
+    color: white;
+    font-size: 0.7rem; }
+
+#dingzhi div {
+  font-size: 2rem;
+  border-radius: 50%;
+  background: white;
+  padding-left: 0.24rem;
+  width: 3rem;
+  height: 3rem;
+  position: fixed;
+  top: 20rem;
+  right: 0;
+  border: 0.2rem solid gainsboro;
+  text-align: center;
+  line-height: 3rem; }
+
+/*# sourceMappingURL=zxfa.css.map */

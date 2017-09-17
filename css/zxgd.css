@@ -1,0 +1,184 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem; }
+
+html, body {
+  background: #eaeaea !important;
+  font-size: 1.5rem; }
+
+#top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #39C894;
+  position: relative;
+  height: 10rem; }
+  #top img {
+    width: 8rem; }
+  #top #x {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2.3rem; }
+  #top p {
+    font-size: 2.3rem;
+    font-family: 华文新魏; }
+  #top #gzh {
+    background: #2BB281;
+    padding: 0.6rem;
+    border-radius: 1.3rem; }
+    #top #gzh span {
+      color: #eed215; }
+
+#inp {
+  display: flex;
+  justify-content: center;
+  background: white;
+  padding-bottom: 1rem;
+  padding-top: 0.1rem; }
+  #inp input {
+    width: 70%;
+    border: 0.1rem solid #00BE9C;
+    border-radius: 0;
+    font-size: 2rem;
+    height: 3.4rem; }
+  #inp button {
+    background: #00BE9C;
+    border-radius: 0;
+    color: white;
+    width: 6rem;
+    font-size: 2rem;
+    height: 3.4rem;
+    line-height: 1rem;
+    text-align: center; }
+
+.nav-tabs li {
+  width: 33%;
+  text-align: center; }
+.nav-tabs .active {
+  border-bottom: 0.2rem solid #00BE9C !important; }
+.nav-tabs a {
+  border: 0 !important; }
+
+#home {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 1.5rem;
+  background: white;
+  height: 15rem; }
+  #home > div {
+    float: left;
+    width: 25%;
+    padding-top: 1rem; }
+  #home img {
+    width: 6rem; }
+  #home button {
+    border: 0.2rem solid #00BE9C;
+    color: #00BE9C;
+    background: white;
+    width: 93%;
+    font-size: 2rem; }
+
+#wntj {
+  padding: 2rem;
+  background: white; }
+  #wntj .bt {
+    border-left: 0.5rem solid #00B2B2;
+    height: 3.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 1rem;
+    line-height: 3.5rem;
+    font-size: 2rem; }
+  #wntj .box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem; }
+    #wntj .box img {
+      width: 15rem;
+      height: 10rem; }
+    #wntj .box > div {
+      margin-left: 3rem; }
+      #wntj .box > div > p:nth-of-type(1) {
+        font-size: 1.7rem; }
+      #wntj .box > div span:nth-of-type(2) {
+        margin-left: 3rem; }
+  #wntj #hyh {
+    text-align: center;
+    margin-top: 2rem;
+    width: 100%; }
+    #wntj #hyh button {
+      width: 93%;
+      height: 4rem;
+      color: #00BE9C;
+      background: white;
+      border: 0.1rem solid gainsboro;
+      font-size: 2rem; }
+      #wntj #hyh button img {
+        width: 2rem; }
+
+#jieshao {
+  margin-top: 2rem;
+  font-size: 1.75rem;
+  background: white;
+  margin-top: 2rem;
+  padding: 1.6rem; }
+
+#kf {
+  margin-top: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  background: white; }
+  #kf p {
+    color: #00B2B2;
+    font-size: 1.8rem; }
+  #kf span {
+    margin-left: 1rem;
+    font-size: 1.8rem;
+    color: black; }
+  #kf > div {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.6rem;
+    margin-top: 1.4rem; }
+
+#bottom {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-between !important;
+  align-items: flex-start;
+  height: 7rem;
+  padding-right: 0.7rem;
+  margin-top: 2rem; }
+  #bottom #x {
+    width: 3rem;
+    height: 3rem; }
+  #bottom #free {
+    width: 20rem;
+    margin-top: 1rem; }
+  #bottom > button {
+    background: #feb605;
+    margin-top: 1.6rem;
+    border-radius: 15rem;
+    color: white;
+    font-size: 1.5rem; }
+
+#dingzhi div {
+  font-size: 4rem;
+  border-radius: 50%;
+  background: white;
+  line-height: 6rem;
+  padding-left: 0.55rem;
+  width: 6rem;
+  height: 6rem;
+  position: fixed;
+  top: 40rem;
+  right: 0;
+  border: 0.2rem solid gainsboro; }
+
+/*# sourceMappingURL=zxgd.css.map */

@@ -1,0 +1,395 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.on {
+  color: #00BE9C; }
+
+h3 {
+  font-size: 3rem; }
+
+html, body {
+  background: #eaeaea !important;
+  font-size: 1rem; }
+
+#top {
+  background: white;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2.5rem;
+  height: 7rem;
+  color: #999; }
+  #top img {
+    width: 30%; }
+  #top p {
+    font-size: 1.3rem;
+    margin-top: 0.4rem; }
+  #top > div {
+    margin-top: 1.6rem; }
+    #top > div > div {
+      margin: 1.3rem; }
+
+.container {
+  position: relative; }
+  .container img {
+    width: 100% !important;
+    height: 15rem !important; }
+  .container ol {
+    position: absolute;
+    bottom: -0.7rem; }
+  .container .quan .active {
+    background: #00be9c !important;
+    width: 1rem;
+    height: 1rem; }
+  .container .quan li {
+    background: #7C7C7C;
+    border: #7C7C7C !important;
+    margin-left: 0.9rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%; }
+
+.container2 {
+  padding: 3rem; }
+  .container2 img {
+    width: 100%; }
+  .container2 .quan .active {
+    background: #00be9c !important; }
+  .container2 .quan li {
+    background: #7C7C7C;
+    border: #7C7C7C !important;
+    margin-left: 0.7rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%; }
+  .container2 #bb {
+    position: relative; }
+    .container2 #bb .quan {
+      position: absolute;
+      bottom: -4rem; }
+
+#kuai {
+  background: white; }
+  #kuai a {
+    color: #999; }
+  #kuai > div {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 2.25rem; }
+    #kuai > div p {
+      font-size: 1.75rem;
+      color: #333;
+      margin-top: 1rem; }
+    #kuai > div img {
+      width: 7.5rem; }
+
+#qwzx {
+  background: white;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+  #qwzx .bt {
+    border-left: 0.5rem solid limegreen;
+    height: 4.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 1.5rem;
+    padding-left: 1rem; }
+    #qwzx .bt p {
+      margin-left: 1rem;
+      font-size: 1.5rem;
+      color: #999; }
+  #qwzx #yq {
+    font-size: 1.5rem; }
+    #qwzx #yq span {
+      margin-left: 1.5rem; }
+    #qwzx #yq img {
+      width: 2.5rem; }
+
+#zxyy {
+  background: white;
+  margin-top: 2rem;
+  padding-top: 2rem; }
+  #zxyy .bt {
+    border-left: 0.5rem solid limegreen;
+    height: 4.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 1.5rem;
+    padding-left: 1rem; }
+    #zxyy .bt p {
+      margin-left: 1rem;
+      font-size: 1.5rem;
+      color: #999; }
+  #zxyy input {
+    width: 30rem;
+    margin: 3rem auto;
+    height: 4.375rem;
+    font-size: 2rem !important;
+    border-radius: 0.6rem; }
+  #zxyy .inp {
+    position: relative;
+    text-align: center; }
+    #zxyy .inp > div {
+      position: absolute;
+      bottom: 14rem;
+      right: 7rem;
+      font-size: 3rem;
+      font-size: 2rem !important; }
+
+#sjs {
+  background: white;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+  #sjs .bt {
+    border-left: 0.5rem solid limegreen;
+    height: 4.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 1.5rem;
+    padding-left: 1rem; }
+  #sjs #sj {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center; }
+    #sjs #sj img {
+      width: 8.75rem; }
+    #sjs #sj p:nth-of-type(1) {
+      font-size: 2.25rem;
+      margin-top: 1.5rem; }
+    #sjs #sj p:nth-of-type(2) {
+      background: #39c894;
+      color: white;
+      border-radius: 0.3rem;
+      width: 7.5rem;
+      height: 2rem;
+      margin-left: 0.8rem;
+      font-size: 1.5rem; }
+  #sjs .hyh {
+    display: flex;
+    justify-content: center; }
+    #sjs .hyh > button {
+      width: 45%;
+      text-align: center;
+      font-size: 1.75rem;
+      color: #00b2b2; }
+      #sjs .hyh > button img {
+        width: 1.75rem; }
+
+#xgt {
+  background: white;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+  #xgt .bt {
+    border-left: 0.5rem solid limegreen;
+    height: 4.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 1.5rem;
+    padding-left: 1rem;
+    margin-bottom: 1.3rem; }
+  #xgt > div:nth-of-type(2) {
+    padding-left: 1.6rem;
+    padding-right: 1.6rem; }
+    #xgt > div:nth-of-type(2) img {
+      width: 100%; }
+  #xgt > div:nth-of-type(3) {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #xgt > div:nth-of-type(3) img {
+      margin: 0.5rem;
+      width: 45%; }
+  #xgt > div:nth-of-type(4) {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #xgt > div:nth-of-type(4) img {
+      margin: 0.5rem;
+      width: 45%; }
+  #xgt .hyh {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.6rem; }
+    #xgt .hyh > button {
+      width: 45%;
+      text-align: center;
+      font-size: 1.75rem;
+      color: #00b2b2; }
+      #xgt .hyh > button img {
+        width: 1.75rem; }
+
+#gdzb {
+  background: white;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem; }
+  #gdzb img {
+    width: 100%; }
+  #gdzb .bt {
+    border-left: 0.5rem solid limegreen;
+    height: 4.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 1rem;
+    margin-bottom: 1.3rem; }
+  #gdzb .hyh {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.9rem; }
+    #gdzb .hyh > button {
+      width: 45%;
+      text-align: center;
+      font-size: 1.75rem;
+      color: #00b2b2; }
+      #gdzb .hyh > button img {
+        width: 1.75rem; }
+  #gdzb #gc {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.75rem;
+    align-items: flex-end;
+    margin-top: 1rem; }
+    #gdzb #gc > div {
+      font-size: 1.5rem;
+      background: #2bb281;
+      width: 9rem;
+      height: 2.5rem;
+      margin-left: 1rem;
+      color: white;
+      text-align: center;
+      border-radius: 0.4rem;
+      line-height: 2.5rem; }
+
+#zxgl {
+  background: white;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem; }
+  #zxgl .fangzi {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem; }
+    #zxgl .fangzi img {
+      width: 10rem !important;
+      height: 8rem; }
+    #zxgl .fangzi > div {
+      margin-left: 2rem;
+      font-size: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+    #zxgl .fangzi #h4 {
+      font-size: 1.5rem; }
+    #zxgl .fangzi span {
+      font-size: 1.3rem !important; }
+  #zxgl .bt {
+    border-left: 0.5rem solid limegreen;
+    height: 4.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 1rem;
+    margin-bottom: 1.3rem; }
+  #zxgl .hyh {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.9rem; }
+    #zxgl .hyh > button {
+      width: 45%;
+      text-align: center;
+      font-size: 1.75rem;
+      color: #00b2b2; }
+      #zxgl .hyh > button img {
+        width: 1.75rem; }
+  #zxgl #gc {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.75rem;
+    align-items: flex-end;
+    margin-top: 1rem; }
+    #zxgl #gc > div {
+      font-size: 1.5rem;
+      background: #2bb281;
+      width: 9rem;
+      height: 2.5rem;
+      margin-left: 1rem;
+      color: white;
+      text-align: center;
+      border-radius: 0.4rem;
+      line-height: 2.5rem; }
+
+#jieshao {
+  font-size: 1.75rem;
+  background: white;
+  margin-top: 2rem;
+  padding: 1.6rem; }
+
+#kf {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  background: white; }
+  #kf p {
+    color: #00B2B2;
+    font-size: 1.8rem; }
+  #kf span {
+    margin-left: 1rem;
+    font-size: 1.8rem;
+    color: black; }
+  #kf > div {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.6rem;
+    margin-top: 1.4rem; }
+
+#bottom {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-between !important;
+  align-items: flex-start;
+  height: 7rem;
+  padding-right: 0.7rem; }
+  #bottom #x {
+    width: 3rem;
+    height: 3rem; }
+  #bottom #free {
+    width: 20rem;
+    margin-top: 1rem; }
+  #bottom > button {
+    background: #feb605;
+    margin-top: 1.6rem;
+    border-radius: 15rem;
+    color: white;
+    font-size: 1.5rem; }
+
+#dingzhi div {
+  font-size: 4rem;
+  border-radius: 50%;
+  background: white;
+  line-height: 6rem;
+  padding-left: 0.55rem;
+  width: 6rem;
+  height: 6rem;
+  position: fixed;
+  top: 40rem;
+  right: 0;
+  border: 0.2rem solid gainsboro; }
+
+/*# sourceMappingURL=index.css.map */

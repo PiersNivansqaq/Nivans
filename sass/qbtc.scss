@@ -1,0 +1,201 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    background: #EAEAEA !important;
+}
+td{
+    border: 0.1rem solid gainsboro !important;
+}
+#top{
+    background: white;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+    height: 3rem;
+    color: #999;
+    img{
+        width: 30%;
+    }
+    h3{
+        color: black;
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: 0.6rem;
+        margin-top: 0.2rem;
+        text-align: center;
+    }
+    .iconfont{
+        font-size: 1rem;
+    }
+    >div{
+        margin-top: 0.6rem;
+        display: flex;
+        justify-content: space-around;
+        >div{
+            margin-left: 1rem;
+        }
+    }
+}
+#qb{
+    background: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0.4rem;
+    img{
+        width: 40%;
+        height: 40%;
+    }
+    #jz{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 0.7rem;
+        height: 5.5rem;
+         margin-left: 0.7rem;
+        >div:nth-of-type(1){
+            font-size: 0.9rem;
+        }
+        .gray{
+            color: gray;
+        }
+    }
+}
+#qbb{
+    background: white;
+   padding: 0.5rem;
+   margin-top: 0.5rem;
+    >p{
+        margin-top: 0.6rem;
+        line-height: 1.3rem;
+        font-size: 0.7rem;
+    }
+}
+#fuwu{
+    margin-top: 0.6rem;
+    .nav-tabs{
+        background: white;
+        padding: 0.5rem;
+        padding-bottom: 0;
+        border-bottom: 0.1rem solid gainsboro;
+        font-size: 0.7rem;
+        li{
+            width: 25%;
+            color: black;
+            text-align: center;
+        }
+        span{
+            height: 0.5rem;
+            border-left: 0.1rem solid gainsboro;
+        }
+        a{
+            color: black;
+            background: white;
+            border: 0;
+        }
+        .active{
+            border-bottom: 0.15rem solid #00BE9C;  
+        }
+    }
+    .tab-content{
+        #home{
+            padding: 0.3rem;
+            background: white;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+#profile{
+    background: white;
+    padding: 1rem;
+    .table-bordered{
+        font-size: 0.6rem;
+        color: gray;
+        border-left: 0.1rem solid white;
+        border-right:  0.1rem solid white;
+        td{
+            width: 3rem;
+            border: 0.01rem solid gray;
+        }
+    }
+    #bq{
+        display: flex;
+        justify-content: space-around;
+        font-size: 0.8rem;
+        
+        >div{
+            border: 0.05rem solid #00BE9C;
+            color: #00BE9C;
+            border-radius: 1rem;
+            padding-left: 0.3rem;
+            padding-right: 0.3rem;
+        }
+    }
+}
+
+
+#jieshao{
+    font-size: 0.9rem;
+    background: white;
+    margin-top: 1rem;
+    padding: 0.4rem;
+}
+
+#kf{
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    background: white;
+    padding-bottom: 0.5rem;
+    p{
+        color: #00B2B2;
+        font-size: 0.8rem;
+    }
+    span{
+        margin-left: 1rem;
+        font-size: 0.8rem;
+        color: black;
+    }
+    >div{
+        display: flex;
+        justify-content: space-around;
+        font-size: 0.7rem;
+        margin-top: 1rem;
+    }
+}
+#bottom{
+    width: 100%;
+    background: rgba(254,106,115,0.6);
+    .icon-pencle{
+        font-size: 1.2rem;
+        line-height: 3rem;
+    }
+    height: 3rem;
+    text-align: center;
+    color: white;
+}
+#dingzhi{
+    div{
+        font-size: 2rem;
+        border-radius: 50%;
+        background: white;
+        line-height: 2.6rem;
+        padding-left: 0.24rem;
+        width: 3rem;
+        height: 3rem;
+        position: fixed;
+        top: 20rem;
+        right: 0;
+        border: 0.2rem solid gainsboro;
+    }
+}

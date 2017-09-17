@@ -1,0 +1,475 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+.on{
+    color: #00BE9C;
+}
+h3{
+    font-size: 3rem;
+}
+html,body{
+    background: #eaeaea !important;
+    font-size: 1rem;
+}
+#top{
+    background: white;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.5rem;
+    height: 7rem;
+    color: #999;
+    img{
+        width: 30%;
+    }
+    p{
+        font-size: 1.3rem;
+        margin-top: 0.4rem;
+    }
+    
+    >div{
+        margin-top: 1.6rem;
+        >div{
+            margin: 1.3rem;
+        }
+    }
+}
+.container{
+    position: relative;
+    img{
+        width: 100% !important;
+        height: 15rem !important;
+    }
+    ol{
+        position: absolute;
+        bottom: -0.7rem;
+    }
+    .quan{
+        .active{
+            background: #00be9c !important;
+            width: 1rem;
+            height: 1rem;
+        }
+        li{
+            background: #7C7C7C;
+            border: #7C7C7C !important;
+            margin-left: 0.9rem;
+            width: 1rem;
+            height: 1rem;
+            border-radius: 100%;
+        }
+    }
+    
+}
+.container2{
+    padding: 3rem;
+    img{
+        width: 100%;
+    }
+    .quan{
+        .active{
+            background: #00be9c !important;
+        }
+        li{
+            background: #7C7C7C;
+            border: #7C7C7C !important;
+            margin-left: 0.7rem;
+            width: 1rem;
+            height: 1rem;
+            border-radius: 100%;
+        }
+    }
+    #bb{
+        position: relative;
+        .quan{
+            position: absolute;
+            bottom: -4rem;
+        }
+    }
+}
+#kuai{
+    background: white;
+    a{
+        color:  #999;
+    }
+    >div{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        padding-top: 2.25rem;
+        
+        p{
+            font-size: 1.75rem;
+            color: #333;
+            margin-top: 1rem;
+        }
+        img{
+            width: 7.5rem;
+            
+        }
+    }
+}
+#qwzx{
+    background: white;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    .bt{
+        border-left: 0.5rem solid limegreen;
+        height: 4.5rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        margin-left: 1.5rem;
+        padding-left: 1rem;
+        p{
+            margin-left: 1rem;
+            font-size: 1.5rem;
+            color: #999;
+        }
+    }
+    #yq{
+        font-size: 1.5rem;
+        span{
+            margin-left: 1.5rem;
+        }
+        img{
+            width: 2.5rem;
+        }
+    }
+}
+#zxyy{
+    background: white;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    .bt{
+        border-left: 0.5rem solid limegreen;
+        height: 4.5rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        margin-left: 1.5rem;
+        padding-left: 1rem;
+        p{
+            margin-left: 1rem;
+            font-size: 1.5rem;
+            color: #999;
+        }
+    }
+    input{
+        width: 30rem;
+        margin: 3rem auto;
+        height: 4.375rem;
+        font-size: 2rem !important;
+        border-radius: 0.6rem;
+    }
+    .inp{
+        position: relative;
+        text-align: center;
+        >div{
+            position: absolute;
+            bottom: 14rem;
+            right: 7rem;
+            font-size: 3rem;
+            font-size: 2rem !important;
+        }
+    }
+}
+#sjs{
+    background: white;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    .bt{
+        border-left: 0.5rem solid limegreen;
+        height: 4.5rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        margin-left: 1.5rem;
+        padding-left: 1rem;
+    }
+    #sj{
+        margin-top: 2.5rem;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        img{
+            width: 8.75rem;
+        }
+        p:nth-of-type(1){
+            font-size: 2.25rem;
+            margin-top: 1.5rem;
+        }
+        p:nth-of-type(2){
+            background: #39c894;
+            color: white;
+            border-radius: 0.3rem;
+            width: 7.5rem;
+            height: 2rem;
+            margin-left: 0.8rem;
+            font-size: 1.5rem;
+        }
+    }
+    .hyh{
+        display: flex;
+        justify-content: center;
+        >button{
+            width: 45%;
+            text-align: center;
+            font-size: 1.75rem;
+            color: #00b2b2;
+            img{
+                width: 1.75rem;
+            }
+        }
+    }
+}
+#xgt{
+    background: white;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    .bt{
+        border-left: 0.5rem solid limegreen;
+        height: 4.5rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        margin-left: 1.5rem;
+        padding-left: 1rem;
+        margin-bottom: 1.3rem;
+    }
+    >div:nth-of-type(2){
+        padding-left: 1.6rem;
+        padding-right: 1.6rem;
+        img{
+            width: 100%;
+        }
+    }
+    >div:nth-of-type(3){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            margin: 0.5rem;
+            width: 45%;
+        }
+    }
+     >div:nth-of-type(4){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            margin: 0.5rem;
+            width: 45%;
+        }
+    }
+    .hyh{
+        display: flex;
+        justify-content: center;
+        margin-top: 0.6rem;
+        >button{
+            width: 45%;
+            text-align: center;
+            font-size: 1.75rem;
+            color: #00b2b2;
+            img{
+                width: 1.75rem;
+            }
+        }
+    }
+}
+#gdzb{
+    background: white;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    img{
+        width: 100%;
+    }
+    .bt{
+        border-left: 0.5rem solid limegreen;
+        height: 4.5rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        padding-left: 1rem;
+        margin-bottom: 1.3rem;
+    }
+    .hyh{
+        display: flex;
+        justify-content: center;
+        margin-top: 0.9rem;
+        >button{
+            width: 45%;
+            text-align: center;
+            font-size: 1.75rem;
+            color: #00b2b2;
+            img{
+                width: 1.75rem;
+            }
+        }
+    }
+    #gc{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 1.75rem;
+        align-items: flex-end;
+        margin-top: 1rem;
+        >div{
+            font-size: 1.5rem;
+            background: #2bb281;
+            width: 9rem;
+            height: 2.5rem;
+            margin-left: 1rem;
+            color: white;
+            text-align: center;
+            border-radius: 0.4rem;
+            line-height: 2.5rem;
+        }
+    }
+}
+#zxgl{
+    background: white;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    .fangzi{
+        display: flex;
+        justify-content:flex-start;
+        margin-top: 2rem;
+        img{
+            width: 10rem !important;
+            height: 8rem;
+        }
+        >div{
+            margin-left: 2rem;
+            font-size: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        #h4{
+            font-size: 1.5rem;
+        }
+        span{
+            font-size: 1.3rem !important;
+        }
+    }
+    .bt{
+        border-left: 0.5rem solid limegreen;
+        height: 4.5rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        padding-left: 1rem;
+        margin-bottom: 1.3rem;
+    }
+    .hyh{
+        display: flex;
+        justify-content: center;
+        margin-top: 0.9rem;
+        >button{
+            width: 45%;
+            text-align: center;
+            font-size: 1.75rem;
+            color: #00b2b2;
+            img{
+                width: 1.75rem;
+            }
+        }
+    }
+    #gc{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 1.75rem;
+        align-items: flex-end;
+        margin-top: 1rem;
+        >div{
+            font-size: 1.5rem;
+            background: #2bb281;
+            width: 9rem;
+            height: 2.5rem;
+            margin-left: 1rem;
+            color: white;
+            text-align: center;
+            border-radius: 0.4rem;
+            line-height: 2.5rem;
+        }
+    }
+}
+#jieshao{
+    font-size: 1.75rem;
+    background: white;
+    margin-top: 2rem;
+    padding: 1.6rem;
+}
+
+#kf{
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    background: white;
+    p{
+        color: #00B2B2;
+        font-size: 1.8rem;
+    }
+    span{
+        margin-left: 1rem;
+        font-size: 1.8rem;
+        color: black;
+    }
+    >div{
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.6rem;
+        margin-top: 1.4rem;
+    }
+}
+#bottom{
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: space-between !important;
+    align-items: flex-start;
+    height: 7rem;
+    padding-right: 0.7rem;
+    #x{
+        width: 3rem;
+        height: 3rem;
+    }
+    #free{
+        width: 20rem;
+        margin-top: 1rem;
+    }
+    >button{
+        background: #feb605;
+        margin-top: 1.6rem;
+        border-radius: 15rem;
+        color: white;
+        font-size: 1.5rem;
+    }
+}
+#dingzhi{
+    div{
+        font-size: 4rem;
+        border-radius: 50%;
+        background: white;
+        line-height: 6rem;
+        padding-left: 0.55rem;
+        width: 6rem;
+        height: 6rem;
+        position: fixed;
+        top: 40rem;
+        right: 0;
+        border: 0.2rem solid gainsboro;
+    }
+}

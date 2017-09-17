@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/omcxm.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<script src="js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="top">
+			<a href="index.html"><div class="glyphicon glyphicon-menu-left"></div></a>
+			<div>欧美文化的抽象美感</div>
+			<div class="glyphicon glyphicon-list">
+				<p>导航</p>
+			</div>
+		</div>
+		<div id="zt">
+			<img src="img/爱奇艺20170912152433.png"/>
+			<div>
+				<div class="xian"></div>
+				<div>
+					<div class="yuan">
+						<div class="yuanxin on"></div>
+					</div>
+				</div>
+				<div class="xian"></div>
+				<div>
+					<div class="yuan">
+						<div class="yuanxin"></div>
+					</div>
+				</div>
+				<div class="xian"></div>
+				<div>
+					<div class="yuan">
+						<div class="yuanxin"></div>
+					</div>
+				</div>
+				<div class="xian"></div>
+				<div>
+					<div class="yuan">
+						<div class="yuanxin"></div>
+					</div>
+				</div>
+				<div class="xian"></div>
+			</div>
+			<p>设计诠释：less is more 不需要过多的装饰，简单的墙面背景与简洁的家具即可组成一个温暖的家</p>
+		</div>
+		<div id="jieshao" style="text-indent:2em">
+				房先森互联网加装有别于传统装修公司与其他装修中介平台，以自营模式整合设计师与项目经理，杜绝项目转包外包，利用互联网将工地进行在线全景直播，通过去中间环节，提供装修套餐 + 个性化定制服务。
+			</div>
+			<div id="kf">
+			<p class="glyphicon glyphicon-earphone"></p><span>服务热线：400-9977-658</span>
+			<div id="cc">
+				<div class="ccc">触屏版</div>
+				<div class="ccc">电脑版</div>
+				<div class="ccc">关于我们</div>
+				<div class="ccc">联系我们</div>
+			</div>
+			</div>
+			<div id="bottom">
+				<div>
+					<img src="img/index/icon_close.png" id="x"/>
+				</div>
+				<div>
+					<img src="img/quoten_bottom.png" id="free"/>
+				</div>
+				<button class="btn">免费获取报价</button>
+			</div>
+		
+		<div id="dingzhi">
+			<div class="glyphicon glyphicon-arrow-up"></div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		window.onresize=function(){
+			window.location.reload()
+		}
+		var width=document.documentElement.clientWidth;
+		document.documentElement.style.fontSize=width/20+"px";
+		
+		$(".yuan").click(function(){
+			$(this).children().addClass("on").parent().parent().siblings().children().children().removeClass("on")
+		})
+	</script>
+</html>

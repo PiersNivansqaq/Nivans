@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  background: #EAEAEA !important; }
+
+#top {
+  background: white;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  height: 3rem;
+  color: #999; }
+  #top img {
+    width: 30%; }
+  #top h3 {
+    color: black;
+    font-size: 1.2rem; }
+  #top p {
+    font-size: 0.6rem;
+    margin-top: 0.2rem;
+    text-align: center; }
+  #top .iconfont {
+    font-size: 1rem; }
+  #top > div {
+    margin-top: 0.6rem;
+    display: flex;
+    justify-content: space-around; }
+    #top > div > div {
+      margin-left: 1rem; }
+
+#bj {
+  background: white;
+  padding-bottom: 1rem;
+  text-align: center; }
+  #bj .bt {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    #bj .bt .xian {
+      width: 35%;
+      height: 0.3rem;
+      border-top: 0.07rem solid gainsboro; }
+    #bj .bt img {
+      width: 3rem; }
+  #bj p {
+    padding: 0.6rem;
+    font-size: 1rem;
+    margin-top: 0.4rem;
+    text-align: center; }
+  #bj #inp input {
+    width: 85%;
+    font-size: 0.8rem;
+    margin: 0.7rem auto;
+    height: 2rem; }
+  #bj button {
+    color: white;
+    width: 85%;
+    height: 2rem;
+    font-size: 0.9rem;
+    background: #FEB605; }
+
+#zxbj {
+  padding-top: 0.3rem;
+  width: 95%;
+  border: 0.07rem dashed #00BE9C;
+  margin: 0 auto;
+  border-top: 0;
+  position: relative;
+  margin-top: 2rem; }
+  #zxbj span {
+    color: #00BE9C; }
+  #zxbj p {
+    text-align: start;
+    font-size: 0.66rem !important;
+    text-indent: 2em; }
+  #zxbj #zbj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    position: absolute;
+    width: 100%;
+    top: -0.7rem; }
+    #zxbj #zbj .xian {
+      width: 23%;
+      height: 0.05rem;
+      border-top: 0.07rem dashed #00BE9C; }
+    #zxbj #zbj .xian:nth-of-type(1) {
+      margin-right: 1rem; }
+    #zxbj #zbj .xian:nth-of-type(3) {
+      margin-left: 1rem !important; }
+
+#liuc {
+  text-align: center; }
+  #liuc .bt {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    #liuc .bt .xian {
+      width: 35%;
+      height: 0.3rem;
+      border-top: 0.07rem solid gainsboro; }
+    #liuc .bt img {
+      width: 3rem; }
+  #liuc #bz {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem; }
+    #liuc #bz .kuai {
+      width: 25.5%;
+      height: 6rem;
+      border: 0.05rem solid #00BE9C;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      font-size: 0.8rem;
+      padding-bottom: 0.5rem; }
+    #liuc #bz .iconfont {
+      font-size: 1rem;
+      border-radius: 100%;
+      width: 2rem;
+      height: 2rem;
+      text-align: center;
+      line-height: 2rem;
+      border: 0.05rem solid #00BE9C;
+      margin: 0.3rem auto;
+      color: #00BE9C;
+      margin-top: 0.5rem; }
+
+#tg {
+  background: white;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+  margin-top: 0.6rem;
+  font-size: 1rem; }
+  #tg #bt {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    #tg #bt .xian {
+      width: 35%;
+      height: 0.3rem;
+      border-top: 0.07rem solid gainsboro; }
+    #tg #bt img {
+      width: 3rem; }
+  #tg #xz {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 0.65rem;
+    position: relative;
+    margin-top: 1rem; }
+    #tg #xz .y1 {
+      position: absolute;
+      height: 100%;
+      width: 0.1rem;
+      left: 10rem;
+      border-left: 0.05rem solid gainsboro; }
+    #tg #xz .x1 {
+      position: absolute;
+      width: 100%;
+      height: 0.1rem;
+      top: 6rem;
+      border-top: 0.05rem solid gainsboro; }
+    #tg #xz .iconfont {
+      font-size: 2rem;
+      background: #00BE9C;
+      border-radius: 100%;
+      width: 3rem;
+      height: 3rem;
+      line-height: 3.1rem;
+      margin: 0.2rem auto;
+      color: white;
+      font-size: 1.6rem !important; }
+    #tg #xz .xz {
+      width: 50%;
+      padding: 0.06rem; }
+      #tg #xz .xz > p:nth-of-type(1) {
+        font-size: 0.73rem; }
+
+#pt {
+  position: relative;
+  padding-top: 2rem; }
+  #pt > img {
+    position: absolute;
+    top: 0; }
+  #pt .img {
+    position: absolute;
+    text-align: center;
+    top: 7rem;
+    width: 100%; }
+    #pt .img img {
+      width: 60%; }
+    #pt .img div {
+      position: absolute;
+      top: 0.1rem;
+      text-align: center;
+      left: 6.5rem;
+      font-size: 0.9rem;
+      color: white; }
+      #pt .img div p {
+        font-size: 0.6rem; }
+  #pt .img2 {
+    top: 20.3rem; }
+    #pt .img2 div {
+      top: 0.55rem; }
+  #pt #ys {
+    display: flex;
+    justify-content: center; }
+    #pt #ys > div {
+      width: 50%;
+      padding-top: 4rem; }
+    #pt #ys p {
+      font-size: 0.8rem; }
+  #pt #left {
+    padding-right: 0 !important;
+    padding-top: 8.6rem !important; }
+    #pt #left .box {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      font-size: 1rem;
+      position: relative;
+      margin-left: 1rem;
+      margin-top: 1rem !important;
+      margin-left: 0.2rem;
+      color: gray; }
+      #pt #left .box .iconfont {
+        font-size: 1.2rem;
+        border: 0.1rem dashed #00BE9C;
+        height: 2.2rem;
+        width: 2.2rem;
+        border-radius: 100%;
+        text-align: center;
+        color: #00BE9C; }
+      #pt #left .box .wz {
+        font-size: 0.7rem;
+        text-align: start; }
+      #pt #left .box .wz1 {
+        margin-left: 1rem; }
+      #pt #left .box .wz2 {
+        text-align: end; }
+      #pt #left .box .icon2 {
+        position: absolute;
+        right: 0.6rem; }
+  #pt #right {
+    padding-top: 8.6rem !important; }
+    #pt #right .box {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 1rem;
+      margin-left: 0.2rem;
+      margin-top: 1rem; }
+      #pt #right .box .iconfont {
+        font-size: 1.2rem;
+        border: 0.1rem dashed #00BE9C;
+        height: 2.2rem;
+        width: 2.2rem;
+        border-radius: 100%;
+        text-align: center;
+        color: #00BE9C; }
+      #pt #right .box .wz {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 0.65rem;
+        margin-left: 0.08rem; }
+        #pt #right .box .wz div {
+          letter-spacing: 0.1rem; }
+
+#libi .bi {
+  margin-left: 1rem;
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+  color: gray; }
+#libi .bt {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 5rem; }
+  #libi .bt .iconfont {
+    font-size: 1rem;
+    border: 0.1rem dashed #00BE9C;
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #00BE9C;
+    margin-left: 0.6rem; }
+  #libi .bt > p {
+    margin-left: 1rem;
+    font-size: 0.8rem !important; }
+
+#jieshao {
+  font-size: 0.9rem;
+  background: white;
+  margin-top: 1rem;
+  padding: 0.4rem; }
+
+#kf {
+  text-align: center;
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  background: white;
+  padding-bottom: 0.5rem; }
+  #kf p {
+    color: #00B2B2;
+    font-size: 0.8rem; }
+  #kf span {
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+    color: black; }
+  #kf > div {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.7rem;
+    margin-top: 1rem; }
+
+#bottom {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-between !important;
+  align-items: flex-start;
+  height: 4rem; }
+  #bottom #x {
+    width: 1.5rem;
+    height: 1.5rem; }
+  #bottom #free {
+    width: 12rem;
+    margin-top: 1rem; }
+  #bottom > button {
+    background: #feb605;
+    margin-top: 1.4rem;
+    border-radius: 15rem;
+    color: white;
+    font-size: 0.7rem; }
+
+#dingzhi div {
+  font-size: 2rem;
+  border-radius: 50%;
+  background: white;
+  padding-left: 0.24rem;
+  width: 3rem;
+  height: 3rem;
+  position: fixed;
+  top: 20rem;
+  right: 0;
+  border: 0.2rem solid gainsboro;
+  text-align: center;
+  line-height: 3rem; }
+
+/*# sourceMappingURL=zxdk.css.map */

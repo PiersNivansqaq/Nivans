@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  background: #EAEAEA !important; }
+
+a {
+  color: black !important; }
+
+#top {
+  background: white;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  height: 4rem;
+  color: #999; }
+  #top img {
+    width: 40%; }
+  #top h3 {
+    color: black;
+    font-size: 1.2rem; }
+  #top p {
+    font-size: 0.6rem;
+    margin-top: 0.2rem; }
+  #top > div {
+    margin-top: 1.2rem; }
+    #top > div > div {
+      margin-left: 1rem; }
+
+#chenc {
+  background: white;
+  margin-top: 0.05rem; }
+  #chenc #jbjs {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 1rem; }
+    #chenc #jbjs img {
+      width: 22%;
+      margin: 0.5rem; }
+    #chenc #jbjs .gray {
+      color: gray; }
+    #chenc #jbjs > div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      font-size: 0.83rem; }
+      #chenc #jbjs > div > div:nth-of-type(1) {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 1rem; }
+        #chenc #jbjs > div > div:nth-of-type(1) > div {
+          background: #00BE9C;
+          color: white;
+          font-size: 0.7rem;
+          height: 0.95rem;
+          line-height: 0.95rem;
+          width: 2rem;
+          text-align: center;
+          border-radius: 0.2rem;
+          margin-left: 1rem; }
+      #chenc #jbjs > div > div {
+        margin-top: 0.5rem; }
+      #chenc #jbjs > div > div:nth-of-type(4) {
+        letter-spacing: 0.05rem;
+        line-height: 1.65rem; }
+
+#xuanz {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 1.2rem auto;
+  height: 4.7rem; }
+  #xuanz > div {
+    border: 0.1rem solid;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 100%;
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem; }
+    #xuanz > div p {
+      font-size: 0.7rem;
+      line-height: 2rem; }
+  #xuanz .icon-thumb-up {
+    color: #FEB605; }
+  #xuanz .icon-pencle {
+    color: #1B9AF7; }
+  #xuanz .icon-design {
+    color: #FF0000; }
+
+#jianj {
+  font-size: 0.7rem;
+  padding: 1rem;
+  line-height: 1.3rem; }
+  #jianj span {
+    color: gray; }
+
+#sjzp {
+  padding: 1rem;
+  background: white;
+  margin-top: 0.7rem; }
+  #sjzp #bt {
+    display: flex;
+    justify-content: space-between;
+    border-left: 0.1rem solid #00BE9C;
+    font-size: 1rem;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    padding-left: 0.5rem; }
+    #sjzp #bt > p:nth-of-type(2) {
+      font-size: 0.8rem; }
+  #sjzp #zp {
+    display: flex;
+    justify-content: space-between; }
+    #sjzp #zp .zp {
+      margin-top: 1rem;
+      text-align: center;
+      width: 49.3%;
+      border: 0.03rem solid gainsboro; }
+      #sjzp #zp .zp img {
+        width: 100%; }
+      #sjzp #zp .zp > p:nth-of-type(1) {
+        margin-top: 0.3rem;
+        font-size: 0.72rem;
+        color: black; }
+      #sjzp #zp .zp > p:nth-of-type(2) {
+        font-size: 0.6rem;
+        color: gray; }
+      #sjzp #zp .zp span {
+        margin: 0.1rem; }
+
+#jieshao {
+  font-size: 0.9rem;
+  background: white;
+  margin-top: 1rem;
+  padding: 0.4rem; }
+
+#kf {
+  text-align: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  background: white;
+  padding-bottom: 0.5rem; }
+  #kf p {
+    color: #00B2B2;
+    font-size: 0.8rem; }
+  #kf span {
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    color: black; }
+  #kf > div {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.7rem;
+    margin-top: 1rem; }
+
+#bottom {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-between !important;
+  align-items: flex-start;
+  height: 4rem; }
+  #bottom #x {
+    width: 1.5rem;
+    height: 1.5rem; }
+  #bottom #free {
+    width: 12rem;
+    margin-top: 1rem; }
+  #bottom > button {
+    background: #feb605;
+    margin-top: 1.4rem;
+    border-radius: 15rem;
+    color: white;
+    font-size: 0.7rem; }
+
+#dingzhi div {
+  font-size: 2rem;
+  border-radius: 50%;
+  background: white;
+  line-height: 2.6rem;
+  padding-left: 0.24rem;
+  width: 3rem;
+  height: 3rem;
+  position: fixed;
+  top: 20rem;
+  right: 0;
+  border: 0.2rem solid gainsboro; }
+
+/*# sourceMappingURL=chenchong.css.map */

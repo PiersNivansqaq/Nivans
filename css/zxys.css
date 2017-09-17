@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  background: #eaeaea; }
+
+#top {
+  background: white;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  height: 4rem;
+  color: #999; }
+  #top img {
+    width: 40%; }
+  #top h3 {
+    color: black;
+    font-size: 1.3rem; }
+  #top p {
+    font-size: 0.8rem;
+    margin-top: 0.2rem; }
+  #top > div {
+    margin-top: 1rem; }
+    #top > div > div {
+      margin: 1rem;
+      font-size: 1.5rem; }
+
+.container li {
+  background: gray;
+  border: 0;
+  margin-left: 1rem;
+  width: 0.5rem;
+  height: 0.5rem; }
+.container img {
+  width: 100%;
+  height: 7rem !important; }
+.container .carousel-indicators .active {
+  background: #00BE9C;
+  margin-left: 1rem;
+  width: 0.5rem;
+  height: 0.5rem; }
+
+#xuanx {
+  width: 95%;
+  background: #f4f4f4;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  font-size: 0.8rem;
+  padding-left: 0.3rem;
+  margin: 0 auto; }
+  #xuanx span {
+    margin-left: 0.2rem; }
+
+.btn {
+  border: 0.1rem solid gainsboro; }
+
+#zhuyi {
+  margin-top: 1.5rem;
+  margin: 0.7rem;
+  background: white; }
+  #zhuyi #bq {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap; }
+    #zhuyi #bq .bq {
+      border: 0.1rem solid #eaeaea;
+      width: 5rem;
+      margin-left: 1rem;
+      font-size: 0.7rem;
+      padding: 0.2rem;
+      border-radius: 1rem;
+      margin-top: 0.5rem;
+      text-align: center;
+      color: grey; }
+  #zhuyi #bt {
+    font-size: 1rem;
+    text-align: center;
+    border-bottom: 0.1rem solid gainsboro; }
+    #zhuyi #bt p {
+      margin-top: 0.6rem;
+      color: grey; }
+    #zhuyi #bt span:nth-of-type(1) {
+      font-size: 0.7rem;
+      margin-right: 1rem; }
+    #zhuyi #bt span:nth-of-type(2) {
+      font-size: 0.7rem;
+      margin-left: 1rem; }
+  #zhuyi #dy {
+    margin-top: 1rem;
+    font-size: 0.7rem;
+    padding: 0.5rem;
+    color: gray;
+    text-align: center; }
+    #zhuyi #dy p {
+      text-align: start; }
+    #zhuyi #dy img {
+      width: 80%; }
+  #zhuyi #fx {
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0rem;
+    width: 93%;
+    display: none;
+    padding-top: 2rem; }
+    #zhuyi #fx > div {
+      display: flex;
+      justify-content: space-around;
+      font-size: 1.1rem;
+      color: white; }
+      #zhuyi #fx > div img {
+        width: 80%; }
+      #zhuyi #fx > div p {
+        margin-top: 0.1rem; }
+    #zhuyi #fx button {
+      width: 90%;
+      background: white;
+      font-size: 0.7rem;
+      border: 0px;
+      margin-top: 1rem; }
+  #zhuyi button {
+    width: 95%;
+    border: 0.03rem solid #39C894;
+    background: white !important;
+    font-size: 0.7rem;
+    color: #39C894;
+    margin-left: 0.5rem; }
+  #zhuyi #fxqj {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.7rem;
+    position: relative; }
+    #zhuyi #fxqj img {
+      width: 4rem; }
+    #zhuyi #fxqj #pj {
+      color: #1B9AF7;
+      font-size: 1rem; }
+    #zhuyi #fxqj #fenx {
+      color: #EED215;
+      font-size: 1rem; }
+
+#wntj {
+  padding: 1rem;
+  background: white; }
+  #wntj .bt {
+    border-left: 0.1rem solid #00B2B2;
+    height: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 1rem;
+    line-height: 1.5rem;
+    font-size: 1rem; }
+  #wntj .box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem; }
+    #wntj .box img {
+      width: 6rem;
+      height: 5rem; }
+    #wntj .box > div {
+      margin-left: 1.5rem;
+      width: 60%; }
+      #wntj .box > div > p:nth-of-type(1) {
+        font-size: 0.8rem; }
+      #wntj .box > div span:nth-of-type(2) {
+        margin-left: 1rem; }
+
+#jieshao {
+  font-size: 1rem;
+  background: white;
+  margin-top: 1rem;
+  padding: 0.4rem; }
+
+#kf {
+  text-align: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  background: white;
+  padding-bottom: 0.5rem; }
+  #kf p {
+    color: #00B2B2;
+    font-size: 1rem; }
+  #kf span {
+    margin-left: 1rem;
+    font-size: 1rem;
+    color: black; }
+  #kf > div {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    margin-top: 1rem; }
+
+#bottom {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-between !important;
+  align-items: flex-start;
+  height: 4rem; }
+  #bottom #x {
+    width: 1.5rem;
+    height: 1.5rem; }
+  #bottom #free {
+    width: 12rem;
+    margin-top: 1rem; }
+  #bottom > button {
+    background: #feb605;
+    margin-top: 1.4rem;
+    border-radius: 15rem;
+    color: white;
+    font-size: 0.7rem; }
+
+#dingzhi div {
+  font-size: 4rem;
+  border-radius: 50%;
+  background: white;
+  line-height: 6rem;
+  padding-left: 0.55rem;
+  width: 6rem;
+  height: 6rem;
+  position: fixed;
+  top: 40rem;
+  right: 0;
+  border: 0.2rem solid gainsboro; }
+
+/*# sourceMappingURL=zxys.css.map */
